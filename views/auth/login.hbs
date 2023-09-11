@@ -3,19 +3,14 @@
 </div>
 <div id="form-login">
   <h2>Welcome back to Ola -<span>Where Surfing Connections Await! 🤙</span></h2>
- 
-  <form action="/login" method="POST">
- 
-    <label> enter your username*
-      <input type="text" name="username" placeholder="username"/>
-    </label>
- 
-    <label>enter your password*
-      <input type="password" name="password" placeholder="********" />
-    </label>
- 
-    <button type="submit">Login</button>
- 
+    <form action="/login" method="POST">
+        <label> enter your username*
+            <input type="text" name="username" placeholder="username"/>
+        </label>
+        <label>enter your password*
+            <input type="password" name="password" placeholder="********" />
+        </label>
+        <button type="submit">Login</button>
     {{#if errorMessage}}
       <p class="error">{{errorMessage}}</p>
     {{/if}}
