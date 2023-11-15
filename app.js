@@ -27,6 +27,7 @@ require("./config/session.config")(app);
 //   next();
 // });
 
+const helpers = require('./config/helpers');
 // default value for title local
 const capitalize = require("./utils/capitalize");
 const projectName = "olas-project2";
