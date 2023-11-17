@@ -3,17 +3,14 @@
   {{!-- <h1>Surfer num</h1>  --}}
   {{!-- here a random number --}}
   <div class="profile-wrapper">
-    {{!-- <img src="{{user.avatar}}" alt="User Avatar" class="avatar" /> --}}
-    <img
-      src="{{user.avatar}}"
-      style="border-radius:100%; width: 80px; height=80px;"/>
+    <div class="profile-avatar">
+      <img src="{{user.avatar}}" alt="User Avatar"/>
+    </div>
 
     <div class="profile-name-wrapper">
       <h2>{{ user.username }}  </h2>
       <img id="profilePencilIcon" src="./images/icons/edit-icon.png" /> 
     </div>
-   
-    
     {{!-- <p>{{user.caption}}</p> --}}
   </div>
 
@@ -27,7 +24,7 @@
     <div class="form-profile">
       <label for="username">username</label>
         <input type="text" name="username" value="{{user.username}}" >
-      <label for="file">Add your avatar</label>
+      <label for="file">add your avatar</label>
         <input type="file" name="user-image" class="form-control-file" /> 
       </div>
         <button type="submit" class="save-btn">save</button>

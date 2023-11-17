@@ -236,7 +236,7 @@ audio {
 }
 .img__description {
   position: absolute;
-  top: 60%;
+  top: 70%;
   padding-top: 10px;
   bottom: 0;
   left: 0;
@@ -263,6 +263,7 @@ audio {
   width:80px; 
   height:80px; 
   border:1px solid #22a699;
+  padding: 10px;
 }
 .logout button {
   background-color: transparent;
@@ -338,7 +339,7 @@ audio {
   font-weight: bold;
 }
 .posts-container {
-  margin-top: 150px;
+  margin-top: 25%;
 }
 .api-container {
   position: fixed;
@@ -372,6 +373,9 @@ audio {
   border-radius: 100%;
   border: 3px solid #22a699;
   text-align: center;
+}
+.profile-avatar {
+
 }
 .profile-name-wrapper {
   display: flex;
@@ -672,12 +676,14 @@ input[type="radio"] + label::before {
   border-radius: 15px;
   padding: 0.5em;
   font-size: 1.2em;
+  font-weight: bold;
 }
 .about-nav-buttons {
   color: #22a699;
   text-decoration: none;
   margin: 0 1.8em 0 0.8em;
   font-size: 1.2em;
+  font-weight: bold;
 }
 .everything-container {
   background-color: #d0ece9;
@@ -883,7 +889,7 @@ input[type="radio"] + label::before {
 }
 /* single post */
 .posts-container {
-  margin-top: 60px;
+  margin-top: 25%;
   border: 1px solid #22a699;
   border-radius: 33px;
 }
@@ -1262,7 +1268,9 @@ input[type="radio"] + label::before {
   .about-body-container {
     width: 77%;
   }
-  
+  .nav1-links a {
+    font-weight: bold;
+  }
   /* login page */
   #form-login {
     width: auto;
@@ -1309,6 +1317,9 @@ input[type="radio"] + label::before {
     padding: 0px;
     margin-left: 0;
     height: auto;
+  }
+  .img__description {
+    top: 60%;
   }
   .search, 
   .reset {
