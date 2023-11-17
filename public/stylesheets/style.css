@@ -480,11 +480,15 @@ audio {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 20px;
 }
+.post:hover {
+  transform: scale(1.01);
+}
 .post img {
   width: 30px;
 }
 .post {
   margin-bottom: 5px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 /* create page */
 .create-post-container {
@@ -1136,6 +1140,7 @@ input[type="radio"] + label::before {
     align-content: center;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 .error-video-container video {
   object-fit: fill;
@@ -1150,7 +1155,6 @@ input[type="radio"] + label::before {
     align-content: center;
     justify-content: center;
     align-items: center;
-
 }
 .error-text-container h1 {
   color: #22a699;
@@ -1186,6 +1190,7 @@ input[type="radio"] + label::before {
   border: 2px solid #22a699;
   background-color: white;
 }
+
 
 /* movil */
 @media (max-width: 767px) {
@@ -1405,8 +1410,36 @@ input[type="radio"] + label::before {
   /* profile page */
   .profile-container {
     margin-left: auto;
+    width: 80%;
   }
-
+  .popup-wrapper {
+    padding: 20px;
+    margin-top: 20px
+  }
+  #popupEditForm {
+    padding: 20px;
+    height: auto;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    width: 70%;
+  }
+  .form-profile input[type="file"],
+  .form-profile input[type="text"],
+  .post-content input[type="text"],
+  .post-content textarea[type="textarea"] {
+    font-size: 16px;
+  }
+  /* post detail page */
+  .post-title h5 {
+    font-size: 18px;
+  }
+  .post-content p {
+    font-size: 16px;
+  }
+  .create-post-container h2 {
+    font-size: 25px;
+  }
 }
  /* tablet */
 @media (min-width: 767px) and (max-width: 1024px) {
@@ -1426,5 +1459,13 @@ input[type="radio"] + label::before {
   }
   .post-form form {
     padding: 30px;
+  }
+  #popupEditForm {
+    padding: 20px;
+    height: auto;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    width: 70%;
   }
 }
