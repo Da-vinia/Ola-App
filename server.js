@@ -10,7 +10,7 @@ mongoose
   .then(() => {
     app.listen(process.env.PORT, () => {
       console.log(
-        `Connected to DB & Server listening on port', process.env.PORT`
+        `Connected to DB & Server listening on port http://localhost:${PORT}`
       );
     });
   })
@@ -18,6 +18,6 @@ mongoose
     console.log(error);
   });
 
-app.listen(PORT, () => {
-  console.log(`Server listening on http://localhost:${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server listening on http://localhost:${PORT}`);
+// });
