@@ -44,7 +44,7 @@ community.
 ## Screenshots
 
 <!-- ![homepage](public/images/readme-img/homepage.png) -->
-![homepage](public/images/readme-img/homepage_video.mp4)
+![homepage](public/images/readme-img/home_page.mp4)
 ![login form](public/images/readme-img/login.png)
 <!-- ![signup form](public/images/readme-img/signup.png) -->
 ![signup form](public/images/readme-img/signup_video.mp4)
