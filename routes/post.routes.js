@@ -132,29 +132,29 @@ router.get("/posts", isLoggedIn, async (req, res, next) => {
   const baseWeatherURL = "https://api.open-meteo.com/v1";
   const beaches = [
     {
-      name: "Waikiki Beach, Hawaii",
-      lat: 21.2741809,
-      long: -157.8246711
+      name: "Playa de Famara, Lanzarote",
+      lat: 29.115780,
+      long: -13.556338
     },
     {
-      name: "Maui, Hawaii",
-      lat: 20.8029568,
-      long: -156.3106833
+      name: "Plage Centrale, Soorts-Hossegor",
+      lat: 43.667961,
+      long: -1.441647
     },
     {
-      name: "Oahu's North Shore, Hawaii",
-      lat: 21.641115188598633,
-      long: -157.9198455810547
+      name: "Praia do Guincho, Portugal",
+      lat: 38.73283320367327,
+      long: -9.472498461550432
     },
     {
-      name: "Huntington Beach(Surf City, USA), California",
-      lat: 33.6783336,
-      long: -118.0000166
+      name: "Playa de Mundaka, Bizkaia",
+      lat: 43.40451046231298,
+      long: -2.697596608677475
     },
     {
-      name: "Punta de Mita, Mexico",
-      lat: 20.6606771,
-      long: -105.2295009
+      name: "Playa del Socorro, Tenerife",
+      lat: 28.394702,
+      long: -16.602920
     }
   ]
 

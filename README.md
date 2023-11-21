@@ -1,5 +1,5 @@
 # Ola App
-#Link: https://olas1.adaptable.app
+#Link: https://ola-olita.adaptable.app
 
 ![Alt text](public/images/logo-green-login.png)
 
@@ -43,15 +43,19 @@ community.
 
 ## Screenshots
 
-![homepage](public/images/readme-img/homepage.png)
+<!-- ![homepage](public/images/readme-img/homepage.png) -->
+![homepage](public/images/readme-img/homepage_video.mp4)
 ![login form](public/images/readme-img/login.png)
-![signup form](public/images/readme-img/signup.png)
-![feed - list of posts](public/images/readme-img/feed.png)
+<!-- ![signup form](public/images/readme-img/signup.png) -->
+![signup form](public/images/readme-img/signup_video.mp4)
+![feed - list of posts](public/images/readme-img/feed_category.png)
 ![user profile](public/images/readme-img/profile.png)
 ![update user profile](public/images/readme-img/update-profile.png)
-![create post](public/images/readme-img/create-post.png)
-![edit-detele post](public/images/readme-img/edit-delete-post.png)
-![eror404](public/images/readme-img/error404.png)
+![create post](public/images/readme-img/create_post.png)
+![edit-detele post](public/images/readme-img/edit_post.png)
+<!-- ![eror404](public/images/readme-img/error404.png) -->
+![eror404](public/images/readme-img/404_video.mp4)
+![eror500](public/images/readme-img/500-error_page.mp4)
 
 ## Getting Started
 

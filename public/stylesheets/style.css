@@ -264,6 +264,7 @@ audio {
   height:80px; 
   border:1px solid #22a699;
   padding: 10px;
+  object-fit: cover;
 }
 .logout button {
   background-color: transparent;
@@ -647,6 +648,7 @@ input[type="radio"] + label::before {
 }
 .post-description img {
   width: 100%;
+  border-radius: 5px;
 }
 
 /* About-us nav bar */
@@ -1097,7 +1099,7 @@ input[type="radio"] + label::before {
   padding: 10px;
   width: 100%;
   font-size: 20px;
-  color: grey;
+  color: black;
   margin-bottom: 25px;
 }
 .login-wrapper input[type="text"]:focus {
@@ -1195,6 +1197,12 @@ input[type="radio"] + label::before {
   color: #22a699;
   border: 2px solid #22a699;
   background-color: white;
+}
+.error {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  color: #F31559
 }
 
 
