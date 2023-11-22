@@ -45,7 +45,7 @@ router.post('/signup', (req, res, next) => {
         res.status(500).render('auth/signup', { errorMessage: error.message });
       } else if (error.code === 11000) {
         res.status(500).render('auth/signup', {
-          errorMessage: 'This user already exists.'
+          errorMessage: 'This user already exists.', layout: "layouts/main"
         });
       } else {
         next(error);
