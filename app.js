@@ -30,9 +30,9 @@ require("./config/session.config")(app);
 const helpers = require('./config/helpers');
 // default value for title local
 const capitalize = require("./utils/capitalize");
-const projectName = "olas-project2";
+const projectName = "ola";
 
-app.locals.appTitle = `${capitalize(projectName)} created with IronLauncher`;
+app.locals.appTitle = `${capitalize(projectName)}`;
 
 // 👇 Start handling routes here
 const indexRoutes = require("./routes/index");
